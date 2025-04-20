@@ -1,0 +1,22 @@
+export PATH=$PATH:/opt/node/bin:/usr/local/go/bin
+# Something I need for my scripts:
+#export GUI_TEXT_EDITOR="xed"
+# Trimming pwd path in prompt:
+export PROMPT_DIRTRIM=1
+# CDPATH for home dir:
+export CDPATH=.:~
+
+# Check if that doesn't appear later in the file:
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=10000
+HISTFILESIZE=15000
+
+# Change the default editor for git:
+export GIT_EDITOR=vim
+
+# Aliases
+# I tend to prefer using scripts rather than aliases
+# but here are some anyway:
+alias c='code .'
+alias g='git status'
+alias gitu='git add . && git commit && git push'
