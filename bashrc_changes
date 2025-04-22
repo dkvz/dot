@@ -1,6 +1,13 @@
 export PATH=$PATH:/opt/node/bin:/usr/local/go/bin
 # Something I need for my scripts:
 #export GUI_TEXT_EDITOR="xed"
+
+# The followin var is only used in my nvim
+# config.
+# I use everforest on one of my computers default is gruvbox-material
+# do not set the variable in that case.
+# export DKVZ_THEME="everforest"
+
 # Trimming pwd path in prompt:
 export PROMPT_DIRTRIM=1
 # CDPATH for home dir:
