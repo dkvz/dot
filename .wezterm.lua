@@ -32,7 +32,7 @@ return {
 	term = "xterm-256color",
 	window_decorations = "TITLE | RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
-	-- Needed on my laptop (might be better on Windows):
+	-- Might want to try this on Windows:
 	--freetype_load_target = "HorizontalLcd",
 	-- Uncomment on Windows:
 	--max_fps = 120,
