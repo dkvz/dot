@@ -26,6 +26,8 @@ return {
 	--font = wezterm.font 'FiraCode Nerd Font',
 	font = wezterm.font("CaskaydiaCove Nerd Font"),
 	font_size = 13,
+	-- Messing with the line height causes weird rendering
+	-- issue on my Wayland Linux
 	line_height = 1.0,
 	window_background_opacity = 0.97,
 	default_cursor_style = "SteadyBar",
