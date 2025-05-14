@@ -15,7 +15,8 @@ function scheme_for_appearance(appearance)
 	if appearance:find("Dark") then
 		return "Gruvbox Material (Gogh)"
 	else
-		return "Catppuccin Latte (Gogh)"
+		--return "Catppuccin Latte (Gogh)"
+		return "Rosé Pine Dawn (Gogh)"
 	end
 end
 
@@ -28,7 +29,7 @@ return {
 	font_size = 13,
 	-- Messing with the line height causes weird rendering
 	-- issue on my Wayland Linux
-	line_height = 1.0,
+	--line_height = 1.0,
 	window_background_opacity = 0.97,
 	default_cursor_style = "SteadyBar",
 	term = "xterm-256color",
