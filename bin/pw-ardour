@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PIPEWIRE_LATENCY="128/48000"
+pw-jack ardour
