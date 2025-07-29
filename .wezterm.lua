@@ -39,4 +39,6 @@ return {
 	--freetype_load_target = "HorizontalLcd",
 	-- Uncomment on Windows:
 	--max_fps = 120,
+  -- Getting these a lot with telescope:
+  warn_about_missing_glyphs = false,
 }
