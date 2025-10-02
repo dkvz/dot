@@ -18,3 +18,8 @@ window-decoration = none
 # Hide the rows x columns thingy that pops up when resizing
 resize-overlay = never
 # window-padding-x = 2
+
+# There's a bug with increasing/decreasing font size shortcut
+# on AZERTY keyboards, currently requires the following:
+keybind = ctrl+equal=unbind
+keybind = ctrl+==increase_font_size:1
