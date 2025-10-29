@@ -8,7 +8,7 @@ font-family = CaskaydiaCove Nerd Font
 font-size = 16
 # I don't know if this does anything lol
 bell-features = no-audio,no-title,no-system
-theme = dark:Everforest Dark   Hard,light:Rose Pine Dawn
+theme = dark:Everforest Dark Hard,light:Everforest Light Med
 #background-opacity = 0.94
 background-image-opacity = 0.04
 background-image = ~/.local/share/bg.jpg
