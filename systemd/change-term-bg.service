@@ -1,0 +1,8 @@
+[Unit]
+Description=Change my terminal background
+
+[Service]
+Type=oneshot
+User=william
+Group=william
+ExecStart=/home/william/.local/bin/change-term-bg
