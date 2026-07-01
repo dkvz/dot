@@ -3,7 +3,6 @@ Description=Changes my terminal background every boot
 
 [Timer]
 OnStartupSec=1
-Persistent=true
 
 [Install]
 WantedBy=timers.target
