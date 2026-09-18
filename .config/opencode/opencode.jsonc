@@ -4,12 +4,13 @@
     "bash": {
       "*": "ask",
       "ls*": "allow",
-      "grep*": "allow"
-      "cd*": "allow"
-      "tail*": "allow"
-      "head*": "allow"
-      "wc*": "allow"
-      "find*": "allow"
+      "cat*": "allow",
+      "grep*": "allow",
+      "cd*": "allow",
+      "tail*": "allow",
+      "head*": "allow",
+      "wc*": "allow",
+      "find*": "allow",
     }
   }
 }
