@@ -11,6 +11,12 @@
       "head*": "allow",
       "wc*": "allow",
       "find*": "allow",
+      "rg*": "allow",
+      "fd*": "allow",
+      "go build *": "allow",
+      "go get *": "allow",
+      "go mod *": "allow",
+      "gofmt*": "allow",
     }
   }
 }
