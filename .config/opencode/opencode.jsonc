@@ -17,6 +17,9 @@
       "go get *": "allow",
       "go mod *": "allow",
       "gofmt*": "allow",
+      "git log *": "allow",
+      "git status *": "allow",
+      "git show *": "allow",
     }
   }
 }
