@@ -6,7 +6,7 @@
 # Often run this on utility containers.
 
 TO_INSTALL="git vim curl wget procps"
-REPO="https://github.com/dkvz/dot/blob/main"
+REPO="https://raw.githubusercontent.com/dkvz/dot/main"
 
 if ! command -v apt &>/dev/null; then
   echo "Could not find apt, is this a Debian family distribution?"
