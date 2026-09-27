@@ -52,6 +52,9 @@ curl -flo "$HOME/.bashrc" "$REPO/quick_at_home/.bashrc"
 curl -flo "$HOME/.tmux.conf" "$REPO/.tmux.conf"
 curl -flo "$HOME/.vimrc" "$REPO/.vimrc"
 
+# Sleep a bit for effect
+sleep 2
+
 # Source .bashrc
 source "$HOME/.bashrc"
 
