@@ -5,7 +5,7 @@
 # very small as well.
 # Often run this on utility containers.
 
-TO_INSTALL="git vim curl wget procps"
+TO_INSTALL="git vim curl wget procps tmux"
 REPO="https://raw.githubusercontent.com/dkvz/dot/main"
 
 if ! command -v apt &>/dev/null; then
